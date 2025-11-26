@@ -22,7 +22,7 @@ This project recreates a modern shopping interface using **HTML, CSS, Bootstrap*
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **HTML5**
 - **CSS3 (Custom Styling)**
@@ -31,7 +31,7 @@ This project recreates a modern shopping interface using **HTML, CSS, Bootstrap*
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 /souled.html             → Custom CSS version  
 /souled.css              → Styling for custom version  
@@ -53,3 +53,4 @@ This project recreates a modern shopping interface using **HTML, CSS, Bootstrap*
 
 ---
 
+![Homepage Preview](assets/souled-ss.png)
