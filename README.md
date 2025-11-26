@@ -33,3 +33,23 @@ This project recreates a modern shopping interface using **HTML, CSS, Bootstrap*
 
 ## 📂 Project Structure
 
+/souled.html             → Custom CSS version  
+/souled.css              → Styling for custom version  
+
+/souled-boot.html        → Bootstrap layout version  
+/souled-boot.css         → Additional styling for Bootstrap  
+
+/assets/                 → Images (banners, category pics, products)
+
+---
+
+# UI Highlights
+
+- Product grid layout with CSS Grid / Bootstrap Grid
+- Smooth hover scaling and shadow effects
+- Sticky header
+- Full-width hero sections
+- Organized, modular sections for easy editing
+
+---
+
