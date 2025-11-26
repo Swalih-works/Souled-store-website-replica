@@ -1,0 +1,153 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+
+html {
+    font-size: 85%;
+}
+
+body {
+    color: black;
+    background: white;
+    overflow-x: hidden;
+    padding-top: 4rem;
+}
+
+header {
+    width: 100%;
+    background: white;
+    box-shadow: 0 0 5px grey;
+    z-index: 1000;
+}
+
+.left-h i {
+    color: black;
+    font-size: 1.4vw;
+}
+
+.left-h-sec a {
+    color: black;
+    font-size: 1.2vw;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.left-h-sec a:hover {
+    color: #ff3f6c;
+}
+
+.left-h-sec .active::after {
+    content: "";
+    position: absolute;
+    bottom: -0.2vw;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: red;
+}
+
+.logo-img {
+    width: 6vw;
+}
+
+.r-h-box {
+    background: #f2f2f2;
+    padding: 0.5vw 1vw;
+}
+
+.text-r-h {
+    font-weight: 300;
+    font-size: 0.5vw;
+    color: gray;
+}
+
+.section-title {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.new-arrivals-main img,
+.categories-main img,
+.corner-main img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.new-arrivals-main img:hover,
+.categories-main img:hover,
+.corner-main img:hover {
+    transform: scale(1.06);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.price-box h6 {
+    color: gray;
+}
+
+.homegrown {
+    margin-top: 4vw;
+    background: black;
+    color: white;
+    padding: 0.8vw;
+    font-size: 2vw;
+}
+
+.million {
+    background: #ffe8e8;
+    padding: 1vw;
+    font-size: 2vw;
+}
+
+.footer-base {
+    background: #f2f2f2;
+    margin-top: -1vw;
+    padding: 2vw 0;
+}
+
+.footer-links a {
+    display: block;
+    font-size: 1.1rem;
+    color: black;
+    margin-bottom: 0.5rem;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #ff3f6c;
+}
+
+.view-more {
+    font-weight: bold;
+    color: #ff3f6c;
+}
+
+.social-icon a {
+    transition: transform 0.3s ease;
+}
+
+.social-icon a:hover {
+    transform: scale(1.2);
+}
+
+footer h6 {
+    font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+    .left-h-sec a {
+        font-size: 3.5vw;
+    }
+    .left-h i {
+        font-size: 5vw;
+    }
+    .text-r-h {
+        font-size: 3vw;
+    }
+}
